@@ -1,30 +1,19 @@
-import java.util.Scanner;
+import java.math.BigInteger;
 
 public class isCoPrime {
        public static void main(String[] args) {
-        while (true) {
-            //To get the input
-            Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter the first integer: ");
-            int a = scanner.nextInt();
-
-            Scanner scanner2 = new Scanner(System.in);
-            System.out.print("Enter the first integer: ");
-            int b = scanner.nextInt();
-
-            boolean isCoPrime = true;
-
-            for (int i = 2; i <= Math.sqrt(n); i++) {
-                if (n % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-            if (isPrime) {
-                System.out.println(n + " is a prime number.");
-            } else {
-                System.out.println(n + " is not a prime number.");
-            }
-        }
+        isCoPrime(new BigInteger("10"), new BigInteger("7"));
     } 
+
+    public static void isCoPrime(BigInteger x, BigInteger y) {
+        BigInteger c = x.gcd(y);
+
+        if(c.intValue()==1) {
+            System.out.println("These number are co-prime to each others");
+        }
+        else{
+            System.out.println("These number are not co-prime to each others");
+        }
+        return ;
+    }
 }
