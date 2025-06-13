@@ -2,7 +2,11 @@ import java.util.Scanner;
 
 public class isPrime {
     public static void main(String[] args) {
-        while (true) {
+        isPrime();
+    }
+
+    public static void isPrime() {
+            while (true) {
             //To get the input
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter an integer: ");
