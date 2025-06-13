@@ -1,10 +1,6 @@
 import java.util.Scanner;
 
 public class isPrime {
-    public static void main(String[] args) {
-        isPrime();
-    }
-
     public static void isPrime() {
             while (true) {
             //To get the input
