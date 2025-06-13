@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class isPrime {
     public static void isPrime() {
-            while (true) {
+            //while (true) {
             //To get the input
             Scanner scanner = new Scanner(System.in);
             System.out.print("Enter an integer: ");
@@ -30,6 +30,6 @@ public class isPrime {
             } else {
                 System.out.println(n + " is not a prime number.");
             }
-        }
+        //}
     }
 }
