@@ -47,7 +47,7 @@ public class rsa {
         System.out.println("Public Key (e, n): (" + keys[0] + ", " + keys[2] + ")");
         System.out.println("Private Key (d, n): (" + keys[1] + ", " + keys[2] + ")");
 
-        BigInteger M = new BigInteger("123");
+        BigInteger M = new BigInteger("10001001001001");
         System.out.println("Original Message: " + M);
 
         BigInteger C = encrypt(M, keys[0], keys[2]);
