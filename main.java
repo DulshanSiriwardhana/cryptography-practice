@@ -7,6 +7,7 @@ public class main {
         //totient.totient(new BigInteger("100"));
         //euclide.getGcd(new BigInteger("10"), new BigInteger("100"));
         //descbc.desconnection();
-        aes.aesconnection();
+        //aes.aesconnection();
+        rsa.rsainit();
     }
 }
